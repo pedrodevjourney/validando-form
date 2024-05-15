@@ -13,7 +13,7 @@
 
 .banner__titulo {
     font-weight: 600;
-    color: var(--branco);
+    color: var(--preto);
     font-size: 32px;
     line-height: 39px;
     width: 40%;
@@ -32,12 +32,12 @@
 .breadcrumb li {
     display: inline;
     font-size: 16px;
-    color: var(--azul-claro);
+    color: var(--preto);
 }
 
 .breadcrumb li+li:before {
     padding: 8px;
-    color: var(--azul-claro);
+    color: var(--preto);
     content: ">";
 }
 
@@ -59,11 +59,13 @@
     font-weight: 600;
     font-size: 28px;
     line-height: 34px;
+    color: var(--preto);
 }
 
 .campo__etiqueta {
     font-weight: 500;
     line-height: 20px;
+    color: var(--preto);
 }
 
 .campo__escrita {
@@ -83,6 +85,7 @@
 .termos__texto {
     line-height: 20px;
     display: inline;
+    color: var(--cinza-claro);
 }
 
 .formulario__botao,
@@ -112,6 +115,11 @@
     text-decoration: none;
     width: 50%;
 }
+
+.formulario__botao--ancora:hover{
+    background-color: var(--preto) ;
+}
+
 
 .formulario__texto {
     margin: 1em 8em;

@@ -17,7 +17,12 @@
     font-family: var(--fonte-logo);
     font-size: 28px;
     font-weight: 700;
-    color: var(--azul-claro);
+    color: var(--preto);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 0 1em;
+   
 }
 
 .cabecalho__logo-final {
@@ -49,13 +54,35 @@
     font-weight: 600;
     border-radius: 20px;
     padding: .5em 1em;
+    color: var(--preto);
+    border: var(--preto) 2px solid;
+}
+
+.imagem-globo-logo{
+    display: flex;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    padding: 0 0.5em;
     color: var(--azul-claro);
-    border: var(--azul-claro) 2px solid;
 }
 
 .cabecalho-lista__item-botao--azul {
-    background-color: var(--azul-claro);
+    background-color: var(--preto);
     color: var(--branco);
+    
+}
+
+.cabecalho-lista__item-botao--azul:hover{
+    color: var(--azul-claro);
+}
+
+.cabecalho-lista__item-botao:hover{
+    color: var(--azul-claro);
+}
+
+.cabecalho-lista__link:hover{
+    color: var(--azul-claro);
 }
 
 @media screen and (max-width: 900px) {

@@ -12,7 +12,7 @@
 .banner__titulo,
 .conta__titulo {
     font-weight: 600;
-    color: var(--branco);
+    color: var(--preto);
     font-size: 32px;
     line-height: 39px;
 }
@@ -22,12 +22,19 @@
     margin: 0 3em
 }
 
+
 .servicos__titulo,
 .beneficios__titulo {
     font-size: 28px;
     text-align: center;
     font-weight: 600;
     margin: 1em 0;
+    color: var(--preto);
+}
+
+.servicos__titulo:hover{
+    color: var(--azul-claro);
+    cursor: default;
 }
 
 .lista-servicos {
@@ -47,8 +54,15 @@
     border-radius: 0px 0px 20px 20px;
 }
 
+
+
 .item-servicos__imagem {
     display: block;
+}
+
+.item-servicos__titulo:hover{
+    background-color: var(--azul-claro);
+    cursor: default;
 }
 
 .conta {
@@ -82,11 +96,15 @@
     padding: 0.5em;
 }
 
+.conta__botao:hover {
+    color: var(--azul-claro);
+}
+
 .beneficios-lista {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    margin: 4em;
+    align-items: stretch;
+    margin: 3em;
     text-align: center;
 }
 
@@ -102,28 +120,32 @@
     display: inline-block;
 }
 
-.icone-presente {
-    background-image: url('../../img/Presente.png');
+.icone-recebendo {
+    background-image: url('../../img/credit-card.svg');
 }
 
-.icone-saque {
-    background-image: url('../../img/Saque.png');
+.icone-maleta {
+    background-image: url('../../img/deposit.svg');
 }
 
-.icone-estrela {
-    background-image: url('../../img/Estrela.png')
+.icone-moeda {
+    background-image: url('../../img/piggy-bank.svg');
 }
 
-.icone-gato {
-    background-image: url('../../img/Gato.png')
+.icone-lampada {
+    background-image: url('../../img/dog-leashed.svg')
 }
 
 .beneficios-lista__titulo {
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
-    color: var(--azul-claro);
+    color: var(--preto);
     margin: .5em 0;
+}
+
+.beneficios-lista__subtitulo{
+    color: #4C4C4D;
 }
 
 @media screen and (max-width: 798px) {
